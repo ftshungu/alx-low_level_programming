@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * main - initial entry point
- * return - always return 0 (success)
+ * main - Entry point
+ * Description: This is the main function of the program.
+ * It prints a message to the console and returns 0 to indicate success.
+ * Return - Always 0 (success)
  */
 int main(void)
 {
