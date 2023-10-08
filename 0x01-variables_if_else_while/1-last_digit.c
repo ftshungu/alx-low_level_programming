@@ -4,8 +4,8 @@
 /**
  * main - Entry point.
  * Description: Check the last digit of output n variable.
+ * Return: always 0.
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -16,15 +16,15 @@ int main(void)
 	lastDigit = n % 10;
 	if (lastDigit > 5)
 	{
-		printf("Last digit of %d is %d and is greater than 5", n, lastDigit);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
 	}
 	else if (lastDigit == 0)
 	{
-		printf("Last digit of %d is %d and is 0", n, lastDigit);
+		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
 	}
 	else
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0", n, lastDigit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastDigit);
 	}
 	return (0);
 }
