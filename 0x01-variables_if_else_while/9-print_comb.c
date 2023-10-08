@@ -19,10 +19,17 @@ int main(void)
 			if (i != 9 || j != 9)
 			{
 				putchar(',');
-				putchar(' ');
+				if (i != 9 || j != 8)
+				{
+					putchar(' ');
+				}
+			}
+
+			if (i == 9 && j == 9)
+			{
+				putchar('\n');
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+	return 0;
 }
